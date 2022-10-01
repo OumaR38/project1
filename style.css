@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(25, 175, 50);
+    background-blend-mode: multiply;
+}
+
+div {
+    background-color: yellowgreen;
+    padding: 10px;
+    margin: 40px;
+}
+
+form{
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    width: 100%;
+    height: 50px;
+    }
+
+input{
+    width: 90px;
+    }
+.giris{
+    text-align: justify;
+    height: 20px;
+}
+
+.eleman, .eleman1, .eleman2, .eleman3, .eleman4,  .eleman5{
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+}
+
+.ana{
+    display: flex;
+    direction: rtl;
+    background-color: var(--arkaplan);
+}
+
+:root{
+    --arkaplan: #5efefe
+}
+
+table{
+    text-align: center;
+    background-color: rgb(37, 55, 218);
+    color: aquamarine;
+    width: 5px;
+    height: 5px;
+}
